@@ -12,11 +12,13 @@ public class maxSubArrayusingPrefixArr {
             prefix[i] = prefix[i-1] + arr[i];
         }
 
+        // Printing prefix sub array
         System.out.print("Prefix Subarray is: ");
         for(int i = 0; i < prefix.length; i++){
             System.out.print(prefix[i] + " ");
         }
 
+        
         int largestSum = Integer.MIN_VALUE;
         int sum = 0;
         for(int i = 0; i < prefix.length; i++){ //start
