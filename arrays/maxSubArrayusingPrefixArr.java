@@ -7,7 +7,7 @@ public class maxSubArrayusingPrefixArr {
 
         prefix[0] = arr[0]; //imp-common mistake one forgets to write this
 
-        // Creating 
+        // Creating prefix array
         for(int i = 1; i < prefix.length; i++){
             prefix[i] = prefix[i-1] + arr[i];
         }
