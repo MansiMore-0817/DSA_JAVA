@@ -7,6 +7,10 @@
 //  return the index of target if it is in nums, or -1   if it is not in nums. 
 // You must write an algorithm with O(log n) runtime complexity
 
+
+// Pivot is irrelevant here though its given in question.. 
+
+
 public class assignmentArrays2 {
 
     public static int searchTarget(int nums[], int target) {
