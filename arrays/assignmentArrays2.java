@@ -9,7 +9,7 @@
 
 
 // Pivot is irrelevant here though its given in question.. 
-
+// This is a type of rotated array question
 
 public class assignmentArrays2 {
 
