@@ -1,3 +1,7 @@
+// Question 1:Given an integer array nums,
+//  return true if any value appears at least twice in the array,
+//  and return false if every element is distinct
+
 public class assignmentArrays1 {
     
     public static boolean arraychecking(int nums[]){
