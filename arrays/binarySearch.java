@@ -1,3 +1,29 @@
+/*
+Binary Search Algorithm (Iterative Approach)
+
+→ Binary search is an efficient searching technique used on a SORTED array.
+→ It works by repeatedly dividing the search space into two halves.
+→ In each iteration, the middle element is compared with the key.
+→ If the key matches the middle element, its index is returned.
+→ If the key is smaller, the search continues in the left half.
+→ If the key is larger, the search continues in the right half.
+→ The process continues until the element is found or the search space becomes invalid.
+
+Pre-condition:
+- The array must be sorted in ascending order.
+
+Time Complexity:
+- Best Case: O(1)
+- Average Case: O(log n)
+- Worst Case: O(log n)
+
+Space Complexity:
+- O(1) since no extra space is used (iterative approach).
+
+This program demonstrates binary search using a while loop in Java.
+*/
+
+
 import java.util.*;
 
 public class binarySearch {
