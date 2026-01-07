@@ -1,3 +1,20 @@
+/*
+ * Program Name: pairsInArray
+ * Description:
+ *   - This program prints all possible unique pairs that can be formed
+ *     from the elements of a given integer array.
+ *   - It uses nested loops:
+ *        * Outer loop picks one element at a time.
+ *        * Inner loop pairs it with every element that comes after it.
+ *   - Also counts and prints the total number of such pairs.
+ *
+ * Time Complexity: O(n^2)
+ * Author: <Your Name>
+ * Date: <Today's Date>
+ */
+
+
+
 import java.util.*;
 
 public class pairsInArray {
