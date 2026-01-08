@@ -37,14 +37,14 @@ public class buyAndSellStocks {
 
     public static int buySellStocks(int prices[]){
 
-        int buyPrice = Integer.MAX_VALUE;
-        int maxProfit = 0;
+        int buyPrice = Integer.MAX_VALUE;  // to track minimum buying price
+        int maxProfit = 0;    // to track max profit
         for(int i = 0; i < prices.length; i++){
-            if(buyPrice < prices[i]){  //profit
+            if(buyPrice < prices[i]){  //case 1 - when profit is possible
                 int profit = prices[i] - buyPrice;  //today's profit
                 maxProfit = Math.max(maxProfit, profit);
-            } else{
-                buyPrice = prices[i];
+            } else{  // update buying price
+                buyPrice = prices[i];   // case 2 - when buying price is lower than current today's price- so instead of selling we will buy at lower price
             }
         }
 
