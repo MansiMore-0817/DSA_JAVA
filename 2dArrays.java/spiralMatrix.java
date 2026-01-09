@@ -7,17 +7,17 @@ public class spiralMatrix {
         int endCol = matrix[0].length - 1;
 
         while (startRow <= endRow && startCol <= endCol) {     //v. imp condition: = and && is must as it works for both even and odd matrix
-            // top
+            // top row
             for(int j = startCol; j <= endCol; j++){
                 System.out.print(matrix[startRow][j] + " ");
             }
 
-            // right
+            // right col 
             for(int i = startRow + 1; i <= endRow; i++){
                 System.out.print(matrix[i][endCol] + " ");
             }
 
-            // bottom
+            // bottom row
             for(int j = endCol - 1; j >= startCol; j--){
                 if(startRow == endRow){  // to avoid duplicate row print in odd matrix
                     return;
@@ -25,7 +25,7 @@ public class spiralMatrix {
                 System.out.print(matrix[endRow][j] + " ");
             }
             
-            // left
+            // left col
             for(int i = endRow - 1; i >= startRow + 1; i--){
                 if(startCol == endCol){  // to avoid duplicate column print in odd matrix
                     return;
