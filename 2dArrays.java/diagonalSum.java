@@ -29,7 +29,9 @@ public class diagonalSum {
             // but here we can directly find it by using formula (matrix.length - 1 - i) 
             // as i + j = matrix.length - 1  =>  j = matrix.length - 1 - i
 
-            sum += matrix[i][matrix.length - 1 - i];
+            // secondary diagonal
+            if(i != matrix.length - 1 - i)  // to avoid middle element getting added twice in odd matrix
+                sum += matrix[i][matrix.length - 1 - i];
             
         }
         return sum;
