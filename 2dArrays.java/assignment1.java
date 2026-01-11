@@ -1,4 +1,7 @@
 // Print the number of 7’s that are in the 2d array
+// This is the assignment question for 2d arrays which works as follows by searching for the key in the 2d array and printing the indices where it is found along with the total count of occurrences.
+
+
 
 public class assignment1 {
     
