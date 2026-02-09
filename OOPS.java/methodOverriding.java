@@ -1,3 +1,8 @@
+// Example of Method Overriding (Runtime Polymorphism)
+// Deer class overrides the eat() method of Animal class.
+// When eat() is called using Deer object, Deer’s version executes instead of Animal’s.
+
+
 public class methodOverriding {
  
         public static void main(String [] args){
