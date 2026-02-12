@@ -1,3 +1,5 @@
+// abstract class qs
+
 public class abstractClass {
 
     public static void main(String[] args) {
