@@ -1,4 +1,4 @@
-// abstract class qs
+// abstract class qs solved
 
 public class abstractClass {
 
