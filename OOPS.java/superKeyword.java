@@ -6,6 +6,7 @@ public class superKeyword {
 }
 
 class Animal{
+    
     String color;
     Animal(){
         System.out.println("Animal const called...");
